@@ -11,7 +11,7 @@ class VowelString {
                 c=='A' || c=='E' || c=='I' || c=='O' || c=='U') {
                 count++;
             }
-        }
+        }sc.close();
 
         System.out.println("Vowel count: " + count);
     }
